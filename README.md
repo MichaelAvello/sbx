@@ -1,4 +1,4 @@
 # sbx
 SBX microsite development    
 
-https://github.com/MichaelAvello/sbx
+https://michaelavello.github.io/sbx/
