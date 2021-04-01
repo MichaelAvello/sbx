@@ -69,7 +69,7 @@ body, html {
 
 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-		<i onclick="toggleFunction(this)" class="fa fa-bars"></i>
+		<i class="fa fa-bars"></i>
     </a>
   </div>
 </div>
@@ -252,11 +252,6 @@ function w3_open() {
   } else {
     mySidebar.style.display = 'block';
   }
-}
-
-// Change the fa icon at right side of navbar from pancake to close
-function toggleFunction(x) {
-  x.classList.toggle("fa fa-times-circle");
 }
 
 // Close the sidebar with the close button
