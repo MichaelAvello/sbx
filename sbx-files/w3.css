@@ -522,6 +522,8 @@ a {
 	width: 200px;
 	background-color: #fff;
 	position: fixed!important;
+	top: 0;
+	right: 0;
 	z-index: 1;
 	overflow: auto
 }
