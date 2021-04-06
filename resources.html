@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- post-002 -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-translate-customization" content="b13e11864ff26f97-9ce91fe801721469-g2e5db22dd13dac5a-11">
+    <meta name="google-site-verification" content="LeO7xapTmIz1cyCSxvIDFQx54khwE6tr0r86UBBEqR4">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SBX Dev Site</title>
+	<meta name="referrer" content="always">
+</head>
+
+<!-- stylesheets -->
+<link href="./sbx-files/w3.css" rel="stylesheet" type="text/css">
+<link href="./sbx-files/w3-theme-blue.css" rel="stylesheet" type="text/css">
+<link href="./sbx-files/translateelement.css" rel="stylesheet" type="text/css">
+<link href="./sbx-files/tooltip.css" rel="stylesheet" type="text/css">
+<link href="./sbx-files/util.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: url("./sbx-files/Museum-of-Florida-History-14.jpg");
+	min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+</style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card" id="myNavbar">
+    <a href="https://www.dos.myflorida.com/sunbiz/" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button w3-wide"><i class="fa fa-angle-double-left"></i>&nbsp;&nbsp;Back to Sunbiz.org</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="./index.html#highlights" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button"><i class="fa fa-desktop w3-hover-opacity"></i>&nbsp;&nbsp;HIGHLIGHTS</a>&nbsp;&nbsp;&nbsp;
+      <a href="./index.html#updates" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button"><i class="fa fa-info-circle w3-hover-opacity"></i>&nbsp;&nbsp;UPDATES</a>&nbsp;&nbsp;&nbsp;
+      <a href="./index.html#resources" class="w3-bar-item w3-button"><i class="fa fa-file-o w3-hover-opacity"></i>&nbsp;&nbsp;RESOURCES</a>&nbsp;&nbsp;&nbsp;
+      <a href="./index.html#home" target="_blank" rel="noopener noreferrer" class="w3-bar-item w3-button"><i class="fa fa-home w3-hover-opacity"></i>&nbsp;&nbsp;HOME</a>
+    </div>
+
+<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+		<i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-blue w3-card w3-animate-right w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">× Close</a>
+  <a href="./index.html#highlights" target="_blank" rel="noopener noreferrer" onclick="w3_close()" class="w3-bar-item w3-button">HIGHLIGHTS</a>
+  <a href="./index.html#updates" target="_blank" rel="noopener noreferrer" onclick="w3_close()" class="w3-bar-item w3-button">UPDATES</a>
+  <a href="./index.html#resources" onclick="w3_close()" class="w3-bar-item w3-button">RESOURCES</a>
+  <a href="./index.html#home" target="_blank" rel="noopener noreferrer" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-home fa-2x w3-hover-opacity"></i></a>
+</nav>
+
+<!-- w3-content defines a container for fixed size centered content, wrapped around the whole page content except for the header and footer -->
+<div class="w3-content" style="max-width:1100px;margin-top:40px;margin-bottom:40px">
+
+<!-- Blog Grid -->
+<div class="w3-row" class="w3-light-grey">
+
+<div class="w3-center w3-padding-top-64">
+	<span class="w3-xxlarge w3-border-dark-grey w3-padding w3-text-indigo">Sunbiz Modernization Updates: User Accounts</span>
+</div>
+
+<!-- Blog entry section -->
+<div class="w3-col l8 s12">
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="./sbx-files/sunbiz-user-login-001.png" alt="User Login Page Screenshot" style="width:100%">
+    <div class="w3-container">
+      <h3><span class="w3-text-indigo">User Accounts Will Be Required for Filing Annual Reports</span></h3>
+      <h5><span class="w3-opacity">April 2, 2021</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>With the current Sunbiz.org system, users are not required to provide a username and password for business filings and some data downloads. The modernized Sunbiz site, however, will require users to create individual user accounts, each with a unique username and strong password for secure authentication. User accounts will also be required for filing an Annual Report. Also, users that want to file an Annual Report that makes changes to their business entity will be required to have filing authority.  Please click the button below for more information.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-blue w3-border"><a href="./sbx-files/Data_Download_Update_Business_Entities_example.pdf" target="_blank" rel="noopener noreferrer">USER ACCOUNT REQUIREMENTS</a>&nbsp;&nbsp;<i class="fa fa-angle-double-right"></i></button></p> <!-- Update the .pdf url -->
+        </div>
+		<!--
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+		-->
+      </div>
+    </div>
+  </div>
+<hr>
+
+</div>
+<!-- END Blog Entry Section -->
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  
+  <!-- Previous Posts List -->
+  <div class="w3-card w3-margin" id="prevposts">
+    <div class="w3-container w3-padding">
+      <h4>Previous Updates</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="./sbx-files/florida-museum.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-medium"><a href="./post-001.html#blog" target="_blank" rel="noopener noreferrer">Data Downloads are Changing</a></span><br>
+        <span>April 2, 2021</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="./sbx-files/florida-museum.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-medium"><a href="./post-002.html#blog" target="_blank" rel="noopener noreferrer">User Accounts for Annual Reports</a></span><br>
+        <span>April 2, 2021</span>
+      </li> 
+      <!--
+	  <li class="w3-padding-16">
+        <img src="./sbx-files/florida-museum.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-medium">Dorum</span><br>
+        <span>Ultricies congue</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="./sbx-files/florida-museum.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-medium">Mingsum</span><br>
+        <span>Lorem ipsum dipsum</span>
+      </li> 
+	  -->
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="./sbx-files/florida-museum.png" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4>Florida Department of State, Division of Corporations</h4>
+      <p>Continuously working to foster economic development and provide a competitive, business-friendly corporate filing environment for the state of Florida.</p>
+    </div>
+  </div><hr>
+ 
+</div>
+<!-- END Introduction Menu -->
+
+</div>
+<br>
+<!-- END Blog Grid -->
+
+</div>
+<!-- END w3-content -->
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32">
+  <a href="#home" class="w3-button w3-grey"><i class="fa fa-arrow-up w3-margin-right w3-hover-opacity"></i></a>
+  <p>Copyright © 2021 ...</p>
+</footer>
+<!-- End Footer -->
+
+<!-- Scripts -->
+<script>
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<!-- End Scripts -->
+
+</body>
+
+</html>
