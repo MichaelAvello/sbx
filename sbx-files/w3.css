@@ -1959,3 +1959,10 @@ a {
 .w3-hover-border-pale-blue:hover {
 	border-color: #e7ffff!important
 }
+
+
+/* blue theme */
+.w3-theme-dark {
+	color: #fff !important;
+	background-color: #074b83 !important
+}
