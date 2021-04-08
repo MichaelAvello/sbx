@@ -1961,8 +1961,8 @@ a {
 }
 
 
-/* blue theme */
+/* dark theme */
 .w3-theme-dark {
 	color: #fff !important;
-	background-color: #074b83 !important
+	background-color: #000000 !important
 }
